@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deadmanstales - Tu Librería Favorita</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/41d47b59f7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="img/logo.png" class="logo" alt="Deadmanstales Logo">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Acerca de</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Portafolio</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Tu Librería Favorita</p>
+                <h1>Deadmanstales</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- Acerca de -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/deadmanstales-image.jpg" alt="Imagen de Deadmanstales">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">Acerca de Deadmanstales</h1>
+                    <p>Deadmanstales es tu librería de confianza, dedicada a ofrecer una amplia selección de libros y lecturas para todos los gustos. Aquí te proporcionamos más detalles sobre nosotros:</p>
+                    <h2>Nuestra Misión</h2>
+                    <p>Nuestra misión es promover la lectura y el acceso a la cultura a través de una cuidadosa selección de libros de alta calidad y eventos literarios emocionantes.</p>
+                    <h2>Variedad de Títulos</h2>
+                    <p>En Deadmanstales, encontrarás una amplia variedad de géneros literarios, desde novelas de ficción hasta libros de no ficción, poesía, ciencia ficción y mucho más.</p>
+                    <h2>Eventos Literarios</h2>
+                    <p>Organizamos regularmente eventos literarios, como presentaciones de libros, clubes de lectura y charlas con autores, para fomentar la comunidad de lectores.</p>
+                    <h2>Nuestra Ubicación</h2>
+                    <p>Estamos ubicados en el corazón de la ciudad, en una ubicación conveniente para todos los amantes de los libros.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Servicios -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Tecnologías Trabajadas</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>HTML/CSS/JS</h2>
+                    <p>Desarrollo y diseño de páginas web modernas y atractivas.</p>
+                    <a href="#">Aprende Más</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>PHP (Codeigniter 3)</h2>
+                    <p>Creación de interfaces de usuario intuitivas y agradables.</p>
+                    <a href="#">Aprende Más</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Kotlin</h2>
+                    <p>Desarrollo de aplicaciones web y móviles innovadoras.</p>
+                    <a href="#">Aprende Más</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Funcionalidades -->
+    <div id="functionalities">
+        <div class="container">
+            <h1 class="sub-title">Funcionalidades de Deadmanstales</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Diseño Web</h2>
+                    <p>Desarrollo y diseño de páginas web modernas y atractivas.</p>
+                    <a href="#">Aprende Más</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Diseño UI/UX</h2>
+                    <p>Creación de interfaces de usuario intuitivas y agradables.</p>
+                    <a href="#">Aprende Más</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Diseño de Aplicaciones</h2>
+                    <p>Desarrollo de aplicaciones web y móviles innovadoras.</p>
+                    <a href="#">Aprende Más</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contacto -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contáctanos</h1>
+                    <p>Correo Electrónico: info@deadmanstales.com</p>
+                    <p>Dirección: Calle de la Librería, Ciudad Literaria</p>
+                    <p>Teléfono: +1 (123) 456-7890</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/deadmanstales"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Nombre" placeholder="Tu Nombre" required>
+                        <input type="email" name="email" placeholder="Tu Email" required>
+                        <textarea name="Mensaje" rows="6" placeholder="Tu Mensaje"></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+</html>
